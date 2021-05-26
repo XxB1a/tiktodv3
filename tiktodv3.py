@@ -16,11 +16,10 @@ system('title TIKTOD V3')
 print(pyfiglet.figlet_format("TIKTOD V3", font="slant"))
 print("1. Viewbot.\n2. Heartbot.\n3. Followerbot.\n4. Credits.\n")
 
-auto = int(input("Mode: "))
+auto = int(input("Mode: 3"))
 
 if auto == 1 or auto == 2 or auto == 3:
-    vidUrl = input("TikTok video URL: ")
-
+    vidUrl = input https://vt.tiktok.com/ZSJaTmGD3/
     start = time()
     time_elapsed = strftime('%H:%M:%S', gmtime(time() - start))
 
@@ -31,8 +30,8 @@ if auto == 1 or auto == 2 or auto == 3:
     driver = webdriver.Chrome(r"chromedriver.exe", options=chrome_options)
     driver.set_window_size(1024, 650)
 
-    Views = 0
-    Hearts = 0
+    Views = 3
+    Hearts = 3
     Followers = 0
 
 def beautify(arg):
